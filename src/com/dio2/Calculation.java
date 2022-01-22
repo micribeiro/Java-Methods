@@ -13,5 +13,9 @@ public class Calculation {
 	public static void area(double higherBase, double lowerBase, double height) {
 		System.out.println("Trapezium area: " + (((higherBase + lowerBase)*height)/2));
 	}
+	
+	public static void area(float diagonal1, float diagonal2) {
+		System.out.println("Lozenge area: " + ((diagonal1*diagonal2)/2));
+	}
 
 }

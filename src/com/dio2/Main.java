@@ -8,7 +8,7 @@ public class Main {
 		Calculation.area(3);
 		Calculation.area(5d, 5d);
 		Calculation.area(7, 6, 9);;
-		
+		Calculation.area(5f, 5f);
 	}
 
 }
